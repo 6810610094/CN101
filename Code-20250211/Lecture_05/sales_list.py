@@ -4,19 +4,19 @@ NUM_DAYS = 5
 
 # Create a list to hold the sales
 # for each day.
-sales = [0] * NUM_DAYS
+sales = [0] * NUM_DAYS  # [0, 0, 0, 0, 0]
 
 # Create a variable to hold an index.
 index = 0
 
-print('Enter the sales for each day.')
+print("Enter the sales for each day.")
 
 # Get the sales for each day.
 while index < NUM_DAYS:
-    sales[index] = float(input(f'Day #{index + 1}: '))
+    sales[index] = float(input(f"Day #{index + 1}: "))
     index += 1
 
 # Display the values entered.
-print('Here are the values you entered:')
+print("Here are the values you entered:")
 for value in sales:
-    print(value)
+    print(value, end=" ")
