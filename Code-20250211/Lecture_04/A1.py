@@ -3,8 +3,10 @@ running_count = 0
 while ans == "y":
     start = int(input("Enter start number: "))
     end = int(input("How hight shoud I go? "))
-    while start >= end:
-        print("Error: Starting number must be less than ending number.")
+   
+    # input valuetion loop
+    while start >= end: 
+        print("Error: Starting number must be less than ending number.") 
         start = int(input("Enter start number: "))
         end = int(input("How hight shoud I go? "))
 
