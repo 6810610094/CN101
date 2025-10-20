@@ -2,9 +2,7 @@
 ROWS = 3
 COLS = 4
 # Create a two-dimensional list.
-values = [[0, 0, 0, 0],
-          [0, 0, 0, 0],
-          [0, 0, 0, 0]]
+values = [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
 # Fill the list with numbers.
 i = 1
 for r in range(ROWS):

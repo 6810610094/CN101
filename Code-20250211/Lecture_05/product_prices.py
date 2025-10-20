@@ -12,10 +12,10 @@ product_to_modify = input("\nEnter the name of the product to modify the price: 
 new_price = float(input(f"Enter the new price for {product_to_modify}: "))
 
 # Searching for the product and updating its price using list slicing
-found = False
+found = False  # Flag varible
 for i in range(len(products)):
     if products[i] == product_to_modify:
-        prices = prices[:i] + [new_price] + prices[i+1:]
+        prices = prices[:i] + [new_price] + prices[i + 1 :]
         found = True
         break
 
